@@ -1,0 +1,18 @@
+td {
+  /*border: 2px solid black;*/
+  height: 100px;
+  width: 100px;
+  font-size: 50px;
+  text-align: center;
+}
+
+/*Table cells that need bottom borders*/
+#topLeft, #topRight, #topMiddle, #middleLeft, #middleRight, #middleMiddle {
+  border-bottom: 4px solid black;
+}
+
+/*Table cells that need bottom right borders*/
+
+#topLeft, #topMiddle, #middleLeft, #middleMiddle, #bottomLeft, #bottomMiddle {
+  border-right: 4px solid black;
+}
