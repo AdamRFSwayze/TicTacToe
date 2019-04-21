@@ -1,0 +1,139 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.main {
+  align-self: center
+  
+}
+
+
+.board {
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#topLeft {
+  width: 20vmin;
+	height: 20vmin;
+	padding: 0;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+}
+
+#topMiddle {
+  width: 20vmin;
+	height: 20vmin;
+	padding: 0;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
+
+#topRight {
+  width: 20vmin;
+	height: 20vmin;
+	padding: 0;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+}
+
+#middleLeft {
+  width: 20vmin;
+	height: 20vmin;
+	padding: 0;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+}
+
+#middleMiddle {
+  width: 20vmin;
+	height: 20vmin;
+	padding: 0;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+}
+
+#middleRight {
+  width: 20vmin;
+	height: 20vmin;
+	padding: 0;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+}
+
+#bottomLeft {
+  width: 20vmin;
+	height: 20vmin;
+	padding: 0;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+}
+
+#bottomMiddle {
+  width: 20vmin;
+	height: 20vmin;
+	padding: 0;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+}
+
+#bottomRight {
+  width: 20vmin;
+	height: 20vmin;
+	padding: 0;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+}
+
+.board button
+{
+	display: block;
+	border: none;	
+	width: 100%;
+	height: 100%;
+	background: transparent;
+	color: black;
+  cursor: pointer;
+  font-size: 50px
+}
+
+
+.turnCounter {
+  text-align: center;
+}
